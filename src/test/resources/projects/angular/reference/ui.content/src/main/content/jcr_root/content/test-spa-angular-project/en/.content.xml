@@ -10,9 +10,6 @@
         jcr:title="Root Page Test SPA Angular Project App"
         sling:resourceType="test-spa-angular-project/components/app"
         cq:redirectTarget="/content/test-spa-angular-project/en/home">
-        <root
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
     </jcr:content>
     <home/>/>
 </jcr:root>
