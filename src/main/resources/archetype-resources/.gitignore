@@ -1,8 +1,28 @@
-.project
-.classpath
-.settings
-/target
+.DS_Store
+*.log
 
-### IntelliJ ###
+# Maven
+target/
+
+# SPA
+build/
+dist/
+node/
+node_modules/
+.env*.local
+.npmrc
+
+# Tests
+coverage/
+
+# Generated clientlib
+ui.apps/src/main/content/jcr_root/apps/${projectName}/clientlibs/${projectName}-${optionFrontend}/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ
 .idea/
 *.iml

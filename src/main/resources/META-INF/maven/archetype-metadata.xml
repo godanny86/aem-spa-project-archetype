@@ -21,7 +21,7 @@
                 <include>README.md</include>
             </includes>
         </fileSet>
-        <fileSet encoding="UTF-8">
+        <fileSet filtered="true" encoding="UTF-8">
             <directory></directory>
             <includes>
                 <include>.gitignore</include>
@@ -100,6 +100,9 @@
         <!-- Required HTL replacements -->
         <requiredProperty key="symbol_dollar">
             <defaultValue>$</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="symbol_hash">
+            <defaultValue>#</defaultValue>
         </requiredProperty>
     </requiredProperties>
 </archetype-descriptor>
